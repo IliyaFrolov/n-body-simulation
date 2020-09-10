@@ -11,7 +11,7 @@ class. It has methods responsible for calculating the acceleration, kinetic, pot
 Withtin the 'simulation' method, the step range can be set by adjusting the second arguemenn of the range function. The time step can also be 
 adjusted by changing the value of the global variable defined as 'delta'. 
 
-test.py:
+run_simulation.py:
 
 This is the main file used to run the simulation. Within this file you will find a list of bodies at the top, as well as a variable defined as 
 'n_bodies'. This variable becomes an instance of the solarsystem class, the last arguement of the variable can be set to either a 1 or a 2. 
